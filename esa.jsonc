@@ -1,6 +1,6 @@
 {
   "name": "vite-react-template",
-  "entry": "./src/index.js",
+  "entry": "./index.html",
   "installCommand": "npm install",
   "buildCommand": "npm run build",
   "assets": {
