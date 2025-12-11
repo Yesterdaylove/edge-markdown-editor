@@ -1,0 +1,23 @@
+name = "edge-markdown-editor"
+main = "src/edge/index.js"
+compatibility_date = "2024-01-01"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+# KV命名空间配置
+[[kv_namespaces]]
+binding = "DOCUMENTS"
+id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+
+[[kv_namespaces]]
+binding = "ROOMS"
+id = "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+
+# Pages集成
+[pages]
+bucket = "./dist"

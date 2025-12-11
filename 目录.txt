@@ -1,0 +1,44 @@
+edge-markdown-editor/
+├── src/
+│   ├── frontend/           # Pages前端
+│   │   ├── components/     # React组件
+│   │   ├── hooks/         # 自定义Hook
+│   │   ├── lib/           # 工具函数
+│   │   └── pages/         # 页面
+│   ├── edge/              # EdgeRoutine函数
+│   │   ├── websocket/     # WebSocket服务器
+│   │   ├── api/           # REST API处理器
+│   │   └── storage/       # 存储操作
+│   └── shared/            # 前后端共享代码
+├── public/                 # 静态资源
+├── package.json
+├── wrangler.toml          # EdgeRoutine配置
+└── README.md
+
+
+前端（Pages）：
+├── React 18 + TypeScript
+├── Monaco Editor（VS Code同款编辑器）
+├── Tailwind CSS（样式）
+├── Yjs（CRDT实时协作库）
+└── Socket.io Client（WebSocket）
+
+边缘层（EdgeRoutine）：
+├── WebSocket服务器（实时同步）
+├── REST API（文档管理）
+├── 边缘存储（文档持久化）
+└── 边缘缓存（性能优化）
+
+
+edge-markdown-editor/
+├── node_modules/
+├── src/
+│   ├── App.tsx
+│   └── main.tsx
+├── index.html
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+└── README.md
