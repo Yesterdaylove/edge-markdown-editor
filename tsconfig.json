@@ -1,4 +1,3 @@
-// tsconfig.json
 {
   "compilerOptions": {
     "target": "ES2020",
@@ -11,12 +10,16 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
+    "jsx": "react-jsx",  // ✅ 确保是这个
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,  // ✅ 添加这个
+    "allowSyntheticDefaultImports": true,  // ✅ 添加这个
   },
-  "include": ["src"],
+  "include": ["src",
+            "src/*",
+            "node_modules/*"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
