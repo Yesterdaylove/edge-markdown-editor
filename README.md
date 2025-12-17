@@ -2,7 +2,11 @@
 
 > 本项目由阿里云ESA提供加速、计算和保护
 
-![边缘编辑器架构图](images/image-info.png)
+<div align="center">
+  <img src="images/image-info.png" alt="边缘编辑器架构图" width="70%">
+  <br>
+  <em>基于边缘计算的实时协作编辑系统架构</em>
+</div>
 
 ## 🚀 项目简介
 基于阿里云ESA边缘计算技术的实时Markdown协作编辑器，实现毫秒级同步的多人协作编辑体验。
