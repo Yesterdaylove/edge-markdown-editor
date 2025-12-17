@@ -3,9 +3,9 @@
 > 本项目由阿里云ESA提供加速、计算和保护
 
 <div align="center">
-  <img src="images/image-info.png" alt="边缘编辑器架构图" width="70%">
+  <img src="images/image-info.jpg" alt="边缘编辑器架构图" width="70%">
   <br>
-  <em>基于边缘计算的实时协作编辑系统架构</em>
+  <em></em>
 </div>
 
 ## 🚀 项目简介
